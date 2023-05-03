@@ -18,11 +18,11 @@ public class MyQueue {
 			}
 		}
 	}
-	public void añadir (int data) {
+	public void añadir (int dato) {
 		if(tail == MAX) {
 			System.out.println("Queue is full");
 		}else {
-			array[tail] = data;
+			array[tail] = dato;
 			tail++;
 		}
 	}
